@@ -1,0 +1,1236 @@
+{
+  "id": "project_1792145943832_e453skd69",
+  "type": "Project",
+  "schemaVersion": 5,
+  "name": "New_Project",
+  "description": "Modern workspace project for UML, GUI and quantum modeling.",
+  "owner": "BESSER User",
+  "createdAt": "2026-10-16T10:19:03.832Z",
+  "currentDiagramType": "ClassDiagram",
+  "currentDiagramIndices": {
+    "ClassDiagram": 0,
+    "ObjectDiagram": 0,
+    "StateMachineDiagram": 0,
+    "AgentDiagram": 0,
+    "ComponentDiagram": 0,
+    "DeploymentDiagram": 0,
+    "NNDiagram": 0,
+    "UserDiagram": 0,
+    "GUINoCodeDiagram": 0,
+    "QuantumCircuitDiagram": 0,
+    "BPMN": 0
+  },
+  "diagrams": {
+    "ClassDiagram": [
+      {
+        "id": "4f0b4e3b-c0f4-40f0-94bb-24a3b6df810e",
+        "title": "Class Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "ClassDiagram",
+          "size": {
+            "width": 1124,
+            "height": 918
+          },
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "elements": {
+            "67f45d00-d647-4ed6-82bc-3ecf505f7e0e": {
+              "id": "67f45d00-d647-4ed6-82bc-3ecf505f7e0e",
+              "name": "Mission",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -180,
+                "y": -220,
+                "width": 320,
+                "height": 220
+              },
+              "attributes": [
+                "56b304a2-8e80-4e87-8ce2-6d15a0af8ba2",
+                "f5d5df43-0af0-42fe-a97c-b4f65baaccd6",
+                "4e93ab96-e229-4c94-b274-f74242a6bdba",
+                "2d5e1158-4676-41a8-ad56-54ed881c1a46"
+              ],
+              "methods": [
+                "f12a1b72-5aa0-474a-a01a-48fa91ba62d9",
+                "ffc1c70f-14fc-4061-ba91-9009132bc549"
+              ]
+            },
+            "56b304a2-8e80-4e87-8ce2-6d15a0af8ba2": {
+              "id": "56b304a2-8e80-4e87-8ce2-6d15a0af8ba2",
+              "name": "codename",
+              "type": "ClassAttribute",
+              "owner": "67f45d00-d647-4ed6-82bc-3ecf505f7e0e",
+              "bounds": {
+                "x": -179.5,
+                "y": -179.5,
+                "width": 319,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "f5d5df43-0af0-42fe-a97c-b4f65baaccd6": {
+              "id": "f5d5df43-0af0-42fe-a97c-b4f65baaccd6",
+              "name": "loot",
+              "type": "ClassAttribute",
+              "owner": "67f45d00-d647-4ed6-82bc-3ecf505f7e0e",
+              "bounds": {
+                "x": -179.5,
+                "y": -149.5,
+                "width": 319,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "float",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "4e93ab96-e229-4c94-b274-f74242a6bdba": {
+              "id": "4e93ab96-e229-4c94-b274-f74242a6bdba",
+              "name": "state",
+              "type": "ClassAttribute",
+              "owner": "67f45d00-d647-4ed6-82bc-3ecf505f7e0e",
+              "bounds": {
+                "x": -179.5,
+                "y": -119.5,
+                "width": 319,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "MissionState",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "2d5e1158-4676-41a8-ad56-54ed881c1a46": {
+              "id": "2d5e1158-4676-41a8-ad56-54ed881c1a46",
+              "name": "numFails",
+              "type": "ClassAttribute",
+              "owner": "67f45d00-d647-4ed6-82bc-3ecf505f7e0e",
+              "bounds": {
+                "x": -179.5,
+                "y": -89.5,
+                "width": 319,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "f12a1b72-5aa0-474a-a01a-48fa91ba62d9": {
+              "id": "f12a1b72-5aa0-474a-a01a-48fa91ba62d9",
+              "name": "+ calculateSuccessProbability(): float",
+              "type": "ClassMethod",
+              "owner": "67f45d00-d647-4ed6-82bc-3ecf505f7e0e",
+              "bounds": {
+                "x": -179.5,
+                "y": -59.5,
+                "width": 319,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "ffc1c70f-14fc-4061-ba91-9009132bc549": {
+              "id": "ffc1c70f-14fc-4061-ba91-9009132bc549",
+              "name": "+ getNumReqMinions(): int",
+              "type": "ClassMethod",
+              "owner": "67f45d00-d647-4ed6-82bc-3ecf505f7e0e",
+              "bounds": {
+                "x": -179.5,
+                "y": -29.5,
+                "width": 319,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "7abc3446-c7c4-42b4-a198-70a55b74efe3": {
+              "id": "7abc3446-c7c4-42b4-a198-70a55b74efe3",
+              "name": "Minion",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -290,
+                "y": 260,
+                "width": 220,
+                "height": 130
+              },
+              "attributes": [
+                "c026bb95-acea-4bbb-99d4-e7913914f10b",
+                "b4d287d3-b26f-4299-8197-36dc99bc5cff",
+                "7c6f9039-919f-4a9c-ac13-2b647a727a52"
+              ],
+              "methods": []
+            },
+            "c026bb95-acea-4bbb-99d4-e7913914f10b": {
+              "id": "c026bb95-acea-4bbb-99d4-e7913914f10b",
+              "name": "name",
+              "type": "ClassAttribute",
+              "owner": "7abc3446-c7c4-42b4-a198-70a55b74efe3",
+              "bounds": {
+                "x": -289.5,
+                "y": 300.5,
+                "width": 219,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "b4d287d3-b26f-4299-8197-36dc99bc5cff": {
+              "id": "b4d287d3-b26f-4299-8197-36dc99bc5cff",
+              "name": "saldo",
+              "type": "ClassAttribute",
+              "owner": "7abc3446-c7c4-42b4-a198-70a55b74efe3",
+              "bounds": {
+                "x": -289.5,
+                "y": 330.5,
+                "width": 219,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "float",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "7c6f9039-919f-4a9c-ac13-2b647a727a52": {
+              "id": "7c6f9039-919f-4a9c-ac13-2b647a727a52",
+              "name": "specialty",
+              "type": "ClassAttribute",
+              "owner": "7abc3446-c7c4-42b4-a198-70a55b74efe3",
+              "bounds": {
+                "x": -289.5,
+                "y": 360.5,
+                "width": 219,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "SpecialtyType",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "80f4d2cc-da1c-4287-b66a-8d555137825c": {
+              "id": "80f4d2cc-da1c-4287-b66a-8d555137825c",
+              "name": "MissionState",
+              "type": "Enumeration",
+              "owner": null,
+              "bounds": {
+                "x": -542,
+                "y": -439,
+                "width": 160,
+                "height": 170
+              },
+              "attributes": [
+                "2e944493-a97b-429f-96f2-a6376dba67dc",
+                "17055e08-17ec-4d4c-b77d-3441807fa0e4",
+                "a55b1853-06e1-4a28-bd58-ee780c5b3a20",
+                "3d06abfe-a1a4-4082-9793-ff0a42b3cfd0"
+              ],
+              "methods": []
+            },
+            "2e944493-a97b-429f-96f2-a6376dba67dc": {
+              "id": "2e944493-a97b-429f-96f2-a6376dba67dc",
+              "name": "BLOCKED",
+              "type": "ClassAttribute",
+              "owner": "80f4d2cc-da1c-4287-b66a-8d555137825c",
+              "bounds": {
+                "x": -541.5,
+                "y": -388.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "17055e08-17ec-4d4c-b77d-3441807fa0e4": {
+              "id": "17055e08-17ec-4d4c-b77d-3441807fa0e4",
+              "name": "AVAILABLE",
+              "type": "ClassAttribute",
+              "owner": "80f4d2cc-da1c-4287-b66a-8d555137825c",
+              "bounds": {
+                "x": -541.5,
+                "y": -358.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "a55b1853-06e1-4a28-bd58-ee780c5b3a20": {
+              "id": "a55b1853-06e1-4a28-bd58-ee780c5b3a20",
+              "name": "COMPLETED",
+              "type": "ClassAttribute",
+              "owner": "80f4d2cc-da1c-4287-b66a-8d555137825c",
+              "bounds": {
+                "x": -541.5,
+                "y": -328.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "3d06abfe-a1a4-4082-9793-ff0a42b3cfd0": {
+              "id": "3d06abfe-a1a4-4082-9793-ff0a42b3cfd0",
+              "name": "FAILED",
+              "type": "ClassAttribute",
+              "owner": "80f4d2cc-da1c-4287-b66a-8d555137825c",
+              "bounds": {
+                "x": -541.5,
+                "y": -298.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "838ea123-a289-40d2-8263-8e900063fef3": {
+              "id": "838ea123-a289-40d2-8263-8e900063fef3",
+              "name": "Success probabilty between 0 and 1",
+              "type": "Comments",
+              "owner": null,
+              "bounds": {
+                "x": 220,
+                "y": -50,
+                "width": 200,
+                "height": 90
+              }
+            },
+            "b59bb5a0-bd05-4e6e-9a4b-c7f38401b17d": {
+              "id": "b59bb5a0-bd05-4e6e-9a4b-c7f38401b17d",
+              "name": "SpecialtyType",
+              "type": "Enumeration",
+              "owner": null,
+              "bounds": {
+                "x": -484,
+                "y": -210,
+                "width": 160,
+                "height": 200
+              },
+              "attributes": [
+                "e144ca6b-8b9d-4985-b5d6-8d97ed84fa9b",
+                "67cf30d6-7000-48f4-b316-52ee8967511b",
+                "949bd67d-0b76-4305-b6cc-18d5818c46fe",
+                "80afd2b0-8736-4c5f-afa8-e3957e5963d9",
+                "6f5e853b-6b50-4499-86ae-2f51f8733fb4"
+              ],
+              "methods": []
+            },
+            "e144ca6b-8b9d-4985-b5d6-8d97ed84fa9b": {
+              "id": "e144ca6b-8b9d-4985-b5d6-8d97ed84fa9b",
+              "name": "HACKER",
+              "type": "ClassAttribute",
+              "owner": "b59bb5a0-bd05-4e6e-9a4b-c7f38401b17d",
+              "bounds": {
+                "x": -483.5,
+                "y": -159.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "67cf30d6-7000-48f4-b316-52ee8967511b": {
+              "id": "67cf30d6-7000-48f4-b316-52ee8967511b",
+              "name": "LOCKSMITH",
+              "type": "ClassAttribute",
+              "owner": "b59bb5a0-bd05-4e6e-9a4b-c7f38401b17d",
+              "bounds": {
+                "x": -483.5,
+                "y": -129.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "949bd67d-0b76-4305-b6cc-18d5818c46fe": {
+              "id": "949bd67d-0b76-4305-b6cc-18d5818c46fe",
+              "name": "DRIVER",
+              "type": "ClassAttribute",
+              "owner": "b59bb5a0-bd05-4e6e-9a4b-c7f38401b17d",
+              "bounds": {
+                "x": -483.5,
+                "y": -99.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "80afd2b0-8736-4c5f-afa8-e3957e5963d9": {
+              "id": "80afd2b0-8736-4c5f-afa8-e3957e5963d9",
+              "name": "ASSAULT",
+              "type": "ClassAttribute",
+              "owner": "b59bb5a0-bd05-4e6e-9a4b-c7f38401b17d",
+              "bounds": {
+                "x": -483.5,
+                "y": -69.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "6f5e853b-6b50-4499-86ae-2f51f8733fb4": {
+              "id": "6f5e853b-6b50-4499-86ae-2f51f8733fb4",
+              "name": "NEGOTIATOR",
+              "type": "ClassAttribute",
+              "owner": "b59bb5a0-bd05-4e6e-9a4b-c7f38401b17d",
+              "bounds": {
+                "x": -483.5,
+                "y": -39.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "7931564d-bc8a-47c4-afbc-e4befba55a65": {
+              "id": "7931564d-bc8a-47c4-afbc-e4befba55a65",
+              "name": "AssignedMinion",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -460,
+                "y": 90,
+                "width": 180,
+                "height": 70
+              },
+              "attributes": [
+                "76b3aee1-56b2-42dd-af96-4eaea16df933"
+              ],
+              "methods": []
+            },
+            "76b3aee1-56b2-42dd-af96-4eaea16df933": {
+              "id": "76b3aee1-56b2-42dd-af96-4eaea16df933",
+              "name": "role",
+              "type": "ClassAttribute",
+              "owner": "7931564d-bc8a-47c4-afbc-e4befba55a65",
+              "bounds": {
+                "x": -459.5,
+                "y": 130.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "SpecialtyType",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "37d6a28b-93f3-4ab7-aa97-9ced534f1912": {
+              "id": "37d6a28b-93f3-4ab7-aa97-9ced534f1912",
+              "name": "RequiredSpecialists",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -209,
+                "y": -436,
+                "width": 190,
+                "height": 100
+              },
+              "attributes": [
+                "d756605e-61ed-4d2c-b4a4-c93954e7b977",
+                "1a137411-e167-408d-bbd9-277703ac57f0"
+              ],
+              "methods": []
+            },
+            "d756605e-61ed-4d2c-b4a4-c93954e7b977": {
+              "id": "d756605e-61ed-4d2c-b4a4-c93954e7b977",
+              "name": "type",
+              "type": "ClassAttribute",
+              "owner": "37d6a28b-93f3-4ab7-aa97-9ced534f1912",
+              "bounds": {
+                "x": -208.5,
+                "y": -395.5,
+                "width": 189,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "SpecialtyType",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "1a137411-e167-408d-bbd9-277703ac57f0": {
+              "id": "1a137411-e167-408d-bbd9-277703ac57f0",
+              "name": "num",
+              "type": "ClassAttribute",
+              "owner": "37d6a28b-93f3-4ab7-aa97-9ced534f1912",
+              "bounds": {
+                "x": -208.5,
+                "y": -365.5,
+                "width": 189,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "4c155194-c6d4-4cd6-9602-82c365fb0946": {
+              "id": "4c155194-c6d4-4cd6-9602-82c365fb0946",
+              "name": "Delete RequiredSpecialists class - it will be a custom datatype inheriting from: Hashmap[SpecialityType, Int]\n",
+              "type": "Comments",
+              "owner": null,
+              "bounds": {
+                "x": 40,
+                "y": -370,
+                "width": 390,
+                "height": 70
+              },
+              "fillColor": "#fc5c65"
+            },
+            "192b6b71-1b1a-43ff-b04d-600c58a3d32e": {
+              "id": "192b6b71-1b1a-43ff-b04d-600c58a3d32e",
+              "name": "",
+              "type": "ClassOCLConstraint",
+              "owner": null,
+              "bounds": {
+                "x": -110,
+                "y": 120,
+                "width": 330,
+                "height": 100
+              },
+              "description": "numMinions must be equal to the number of related assignedMinions",
+              "constraint": "context Mission inv : \nnumMinions = assignedMinions.length()\n"
+            }
+          },
+          "relationships": {
+            "9da2357b-10f1-40d1-bd2e-684d719caf96": {
+              "id": "9da2357b-10f1-40d1-bd2e-684d719caf96",
+              "name": "RequisitOf",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -20.583335876464844,
+                "y": -260,
+                "width": 255.68333435058594,
+                "height": 132.5
+              },
+              "path": [
+                {
+                  "x": 160.58333587646484,
+                  "y": 95
+                },
+                {
+                  "x": 200.58333587646484,
+                  "y": 95
+                },
+                {
+                  "x": 200.58333587646484,
+                  "y": 0
+                },
+                {
+                  "x": 80.58333587646484,
+                  "y": 0
+                },
+                {
+                  "x": 80.58333587646484,
+                  "y": 40
+                }
+              ],
+              "source": {
+                "direction": "Upright",
+                "element": "67f45d00-d647-4ed6-82bc-3ecf505f7e0e",
+                "multiplicity": "*",
+                "role": "dependency",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Topright",
+                "element": "67f45d00-d647-4ed6-82bc-3ecf505f7e0e",
+                "multiplicity": "*",
+                "role": "dependant",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "29b23f62-b015-4b09-ad8e-d3ddada1619a": {
+              "id": "29b23f62-b015-4b09-ad8e-d3ddada1619a",
+              "name": "",
+              "type": "Link",
+              "owner": null,
+              "bounds": {
+                "x": 140,
+                "y": -120,
+                "width": 185,
+                "height": 70
+              },
+              "path": [
+                {
+                  "x": 180,
+                  "y": 70
+                },
+                {
+                  "x": 180,
+                  "y": 10
+                },
+                {
+                  "x": 0,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "838ea123-a289-40d2-8263-8e900063fef3",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Right",
+                "element": "67f45d00-d647-4ed6-82bc-3ecf505f7e0e",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "d0952808-8f23-470f-9123-e4a29dce95a0": {
+              "id": "d0952808-8f23-470f-9123-e4a29dce95a0",
+              "name": "Required Specialities",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -169.11666870117188,
+                "y": -336,
+                "width": 101.31666946411133,
+                "height": 124.5
+              },
+              "path": [
+                {
+                  "x": 69.61666870117188,
+                  "y": 116
+                },
+                {
+                  "x": 69.61666870117188,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Topleft",
+                "element": "67f45d00-d647-4ed6-82bc-3ecf505f7e0e",
+                "multiplicity": "0..1",
+                "role": "Needs",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Down",
+                "element": "37d6a28b-93f3-4ab7-aa97-9ced534f1912",
+                "multiplicity": "1..*",
+                "role": "Required",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "b62a847f-c91e-4af3-b599-903a07d7f356": {
+              "id": "b62a847f-c91e-4af3-b599-903a07d7f356",
+              "name": "AssignedMissions",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -493.33333587646484,
+                "y": 160,
+                "width": 345.0333366394043,
+                "height": 108.5
+              },
+              "path": [
+                {
+                  "x": 313.33333587646484,
+                  "y": 100
+                },
+                {
+                  "x": 313.33333587646484,
+                  "y": 50
+                },
+                {
+                  "x": 123.33333587646484,
+                  "y": 50
+                },
+                {
+                  "x": 123.33333587646484,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "7abc3446-c7c4-42b4-a198-70a55b74efe3",
+                "multiplicity": "0..1",
+                "role": "assignedMinion",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Down",
+                "element": "7931564d-bc8a-47c4-afbc-e4befba55a65",
+                "multiplicity": "*",
+                "role": "assignedMission",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "49f8e598-1560-491c-979a-e3df04235ccd": {
+              "id": "49f8e598-1560-491c-979a-e3df04235ccd",
+              "name": "AssignedMinions",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -494.1999969482422,
+                "y": 0,
+                "width": 505.89999771118164,
+                "height": 98.5
+              },
+              "path": [
+                {
+                  "x": 124.19999694824219,
+                  "y": 90
+                },
+                {
+                  "x": 124.19999694824219,
+                  "y": 45
+                },
+                {
+                  "x": 474.1999969482422,
+                  "y": 45
+                },
+                {
+                  "x": 474.1999969482422,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "7931564d-bc8a-47c4-afbc-e4befba55a65",
+                "multiplicity": "*",
+                "role": "assignedMinions",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Down",
+                "element": "67f45d00-d647-4ed6-82bc-3ecf505f7e0e",
+                "multiplicity": "0..1",
+                "role": "assignedTo",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "78918a2f-7506-454d-8671-ce1b6dd1f9fd": {
+              "id": "78918a2f-7506-454d-8671-ce1b6dd1f9fd",
+              "name": "",
+              "type": "ClassOCLLink",
+              "owner": null,
+              "bounds": {
+                "x": -220,
+                "y": -65,
+                "width": 280,
+                "height": 185
+              },
+              "path": [
+                {
+                  "x": 275,
+                  "y": 185
+                },
+                {
+                  "x": 275,
+                  "y": 145
+                },
+                {
+                  "x": 0,
+                  "y": 145
+                },
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 40,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "192b6b71-1b1a-43ff-b04d-600c58a3d32e",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Downleft",
+                "element": "67f45d00-d647-4ed6-82bc-3ecf505f7e0e",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "12a3a7e2-c04b-4e45-80e0-e1c247a2c839": {
+              "id": "12a3a7e2-c04b-4e45-80e0-e1c247a2c839",
+              "name": "",
+              "type": "ClassLinkRel",
+              "owner": null,
+              "bounds": {
+                "x": -99.5,
+                "y": -341.9740381593726,
+                "width": 139.5,
+                "height": 63.97403815937258
+              },
+              "path": [
+                {
+                  "x": 139.5,
+                  "y": 6.974038159372583
+                },
+                {
+                  "x": 0,
+                  "y": 63.97403815937258
+                }
+              ],
+              "source": {
+                "direction": "Left",
+                "element": "4c155194-c6d4-4cd6-9602-82c365fb0946",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Center",
+                "element": "d0952808-8f23-470f-9123-e4a29dce95a0",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            }
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-10-16T10:32:56.096Z"
+      }
+    ],
+    "ObjectDiagram": [
+      {
+        "id": "8a172d83-55bc-4c51-8042-340766468999",
+        "title": "Object Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "ObjectDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-10-16T10:19:03.832Z"
+      }
+    ],
+    "StateMachineDiagram": [
+      {
+        "id": "ea06f673-6835-498f-bdb8-ddcf456bb1ac",
+        "title": "State Machine Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "StateMachineDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-10-16T10:19:03.832Z"
+      }
+    ],
+    "AgentDiagram": [
+      {
+        "id": "0c60b7d1-4327-49f9-9f4e-54922a2c0d65",
+        "title": "Agent Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "AgentDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-10-16T10:19:03.832Z"
+      }
+    ],
+    "ComponentDiagram": [
+      {
+        "id": "71bae4fc-25ce-4435-b4ab-c816cda6881a",
+        "title": "Component Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "ComponentDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-10-16T10:19:03.832Z"
+      }
+    ],
+    "DeploymentDiagram": [
+      {
+        "id": "7d5a80f4-f8b4-466a-8ecd-e0ff65fe06b5",
+        "title": "Deployment Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "DeploymentDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-10-16T10:19:03.832Z"
+      }
+    ],
+    "NNDiagram": [
+      {
+        "id": "47e83770-af30-42e5-9e1d-df43e97fa10b",
+        "title": "NN Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "NNDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-10-16T10:19:03.832Z"
+      }
+    ],
+    "UserDiagram": [
+      {
+        "id": "87a48fb1-a578-43a9-ab5b-f0fb16627174",
+        "title": "User Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "UserDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-10-16T10:19:03.832Z"
+      }
+    ],
+    "GUINoCodeDiagram": [
+      {
+        "id": "028c2b50-7e0b-4c36-acad-86dd2a1b70e5",
+        "title": "GUI Diagram",
+        "model": {
+          "pages": [
+            {
+              "name": "Home",
+              "frames": [
+                {
+                  "component": {
+                    "type": "wrapper",
+                    "stylable": [
+                      "background",
+                      "background-color",
+                      "background-image",
+                      "background-repeat",
+                      "background-attachment",
+                      "background-position",
+                      "background-size"
+                    ],
+                    "components": [],
+                    "head": {
+                      "type": "head"
+                    },
+                    "docEl": {
+                      "tagName": "html"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "styles": [],
+          "assets": [],
+          "symbols": [],
+          "version": "0.21.13"
+        },
+        "lastUpdate": "2026-10-16T10:19:03.832Z"
+      }
+    ],
+    "QuantumCircuitDiagram": [
+      {
+        "id": "d2830039-740a-4080-97d5-808feb4288ec",
+        "title": "Quantum Circuit",
+        "model": {
+          "cols": [],
+          "gates": [],
+          "gateMetadata": {},
+          "initialStates": [],
+          "version": "1.0.0"
+        },
+        "lastUpdate": "2026-10-16T10:19:03.832Z"
+      }
+    ],
+    "BPMN": [
+      {
+        "id": "0cf4052e-f5ed-431d-be12-93eb4aecbddf",
+        "title": "BPMN Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "BPMNDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-10-16T10:19:03.832Z"
+      }
+    ]
+  },
+  "settings": {
+    "defaultDiagramType": "ClassDiagram",
+    "autoSave": true,
+    "collaborationEnabled": false,
+    "perspectives": {
+      "ClassDiagram": true,
+      "ObjectDiagram": true,
+      "StateMachineDiagram": false,
+      "AgentDiagram": false,
+      "UserDiagram": false,
+      "GUINoCodeDiagram": false,
+      "QuantumCircuitDiagram": false,
+      "NNDiagram": false,
+      "BPMN": false,
+      "ComponentDiagram": false,
+      "DeploymentDiagram": false
+    },
+    "preferredInterface": "model"
+  }
+}
